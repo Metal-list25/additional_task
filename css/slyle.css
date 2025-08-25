@@ -1,0 +1,99 @@
+@import url(reset.css);
+
+.container {
+	width: 1200px;
+	margin: 30px auto 30px;
+    outline: 2px solid black;
+}
+
+/* FIRST CONTEINER */
+
+.first {
+    font-size: 0px;
+    background: #F6FFD4;
+}
+
+.first div {
+    outline: 1px solid black;
+    display: inline-block;
+    font-size: 16px;
+    width: 400px;
+    height: 400px;
+}
+
+/* SECOND CONTEINER */
+
+.second {
+    font-size: 0px;
+    background: #DAFBF7;
+}
+
+.second div {
+    outline: 1px solid black;
+}
+
+.second>div {
+    width: 800px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.second>div+div {
+    width: 400px;
+}
+
+.cont-first>div {
+    height: 200px;
+}
+
+.cont-second>div {
+    height: 133.33px;
+}
+
+/* THIRD CONTEINER */
+
+.third {
+    font-size: 0px;
+    background: #F9E6F9;
+}
+
+.third div {
+    outline: 1px solid black;
+}
+
+.third>div {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.third>div+div {
+    width: 800px;
+}
+
+.cont-one>div {
+    height: 400px;
+}
+
+.cont-two>div {
+    height: 200px;
+    font-size: 16px;
+}
+
+.cont-two>div+div {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.pod-one {
+    width: 400px;
+}
+
+.pod-two>div {
+    width: 400px;
+    height: 100px;
+}
+
