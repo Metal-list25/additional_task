@@ -97,3 +97,43 @@
     height: 100px;
 }
 
+/*  FLOAT */
+
+.clearfix {
+    clear: both;
+}
+
+.one div {
+    background: #F6FFD4;
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+    outline: 1px solid black;
+}
+
+
+
+.two div {
+    background: #DAFBF7;
+}
+
+.float-cont-first>div {
+    width: 800px;
+    height: 200px;
+    float: left;
+    padding: 20px;
+    outline: 1px solid black;
+}
+
+.float-cont-second {
+    float: right;
+}
+
+.float-cont-second>div {
+    width: 400px;
+    height: 133.33px;
+    outline: 1px solid black;
+
+
+}
