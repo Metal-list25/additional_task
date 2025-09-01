@@ -73,7 +73,7 @@
     width: 800px;
 }
 
-.cont-one>div {
+.cont-one {
     height: 400px;
 }
 
@@ -99,8 +99,10 @@
 
 /*  FLOAT */
 
-.clearfix {
+.clearfix::after {
+    content: "";
     clear: both;
+    display: block;
 }
 
 .one div {
@@ -112,14 +114,17 @@
     outline: 1px solid black;
 }
 
-
-
-.two div {
+.two  {
     background: #DAFBF7;
 }
 
-.float-cont-first>div {
+.float-cont-first {
+    float: left;
     width: 800px;
+
+}
+
+.float-cont-first div {
     height: 200px;
     float: left;
     padding: 20px;
@@ -127,13 +132,54 @@
 }
 
 .float-cont-second {
-    float: right;
+    float: left;
+    width: 400px;
 }
 
-.float-cont-second>div {
-    width: 400px;
+.float-cont-second div {
+    float: left;
     height: 133.33px;
     outline: 1px solid black;
+}
 
+.three {
+    background: #F9E6F9;
+}
 
+.three > div > div {
+    outline: 1px solid black;
+}
+
+.float-cont-one {
+    width: 400px;
+    height: 400px;   
+    float: left;
+    padding: 20px;
+}
+
+.float-cont-two  {
+    width: 800px;
+    float: left;
+}   
+
+.float-cont-two > div {
+    height: 200px;
+    padding: 20px;
+}
+
+.float-pod-one {
+    width: 400px;
+    height: 200px;
+    float: left;   
+}
+
+.float-pod-two {
+    float: left;
+    width: 400px;
+    padding: 0px;
+}
+
+.float-pod-two > div {
+    height: 100px;
+    float: left;
 }
